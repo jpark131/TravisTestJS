@@ -2,4 +2,4 @@ language: node_js
 node_js:
   - 5
 script:
-  - index.js
+  - make index.js
