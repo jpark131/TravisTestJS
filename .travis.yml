@@ -1,7 +1,8 @@
-  
+before_script:
+  - npm install -g nodemon
 language: node_js
 node_js:
   - 5
  
 script: 
-  - make index.js
+  - node index.js
